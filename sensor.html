@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedestrian Detection</title>
+    <style>
+        /* Set the entire page's background color and remove margins */
+        body, html {
+            margin: 0;
+            padding: 0;
+            background-color: #2b2b2b; /* Dark background for better contrast */
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Container to center the content */
+        .container {
+            text-align: center;
+        }
+
+        /* Main image styling */
+        .main-image {
+            max-width: 100%;
+            max-height: 100%;
+            width: auto;
+            height: auto;
+            border: 5px solid #ffffff; /* Optional: White border around the image */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: Shadow for depth */
+        }
+
+        /* Text styling below the image */
+        .info-text {
+            color: #ffffff; /* White text for good contrast */
+            margin-top: 20px;
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="static/images/sensor.png" alt="Pedestrian Detection" class="main-image">
+        <p class="info-text">Pedestrian Detection Active</p>
+    </div>
+</body>
+</html>
